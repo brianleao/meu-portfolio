@@ -32,7 +32,7 @@ export default function Home() {
             </aside>
             
             <div className={styles.tittles}>
-                <h1 className={styles.tittlehome}>Olá, eu sou o Brian,<br/> Desenvolvedor Web</h1>
+                <h1 className={styles.tittlehome}>Olá, eu sou o Brian,<br/> Desenvolvedor Web.</h1>
                 <span className={styles.tittleFrontEnd}>Front-End Developer</span>
             </div>
         </div>

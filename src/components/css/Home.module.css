@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap');
+
+.container_aside {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    background: #030303;
+    height: 100vh;
+}
+
+.container_main {
+    display: flex;
+}
+
+.infosBrian {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+    padding: 30px;
+    gap: 10px;
+}
+
+.profission {
+    color: #797979;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nameBrian {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.background_image {
+  width: 153px; /* Defina a largura desejada */
+  height: 150px; /* Defina a altura desejada */
+  border-radius: 50%; /* Isso cria a forma circular */
+  overflow: hidden; /* Garante que a imagem se ajuste à forma circular */
+  background-image: url('../images/img_brian.jpg');
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center -65px;
+  background-repeat: no-repeat;
+  border: 3px solid #00FF85;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.about_button {
+    margin-top: 30px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+
+.skills_button {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 27px;
+    background: #001AFF;
+    color: white;
+}
+
+.work_button {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 45px;
+    background: red;
+    color: white;
+}
+
+.contact_button {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background: #FFE81E;
+    color: black;
+}
+
+.tittles {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittlehome {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(50px, 10vw, 80px);
+    width: 60%;
+}
+
+.tittleFrontEnd {
+    color: #5C5C5C;
+    font-family: 'Poppins';
+    font-size: clamp(10px, 5vw, 20px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

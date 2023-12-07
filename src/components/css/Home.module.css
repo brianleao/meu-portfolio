@@ -13,6 +13,15 @@
     display: flex;
 }
 
+.container_principal {
+    display: flex;
+}
+
+.search_button {
+    margin-top: 2vw;
+    height: 5%;
+}
+
 .infosBrian {
     display: flex;
     flex-direction: column;
@@ -66,6 +75,11 @@
     font-size: 20px;
     border-radius: 30px;
     padding: 10px 40px;
+    cursor: pointer;
+}
+
+.about_button:hover {
+    background: rgba(255, 255, 255, 0.767);
 }
 
 .skills_button {
@@ -76,6 +90,11 @@
     padding: 10px 27px;
     background: #001AFF;
     color: white;
+    cursor: pointer;
+}
+
+.skills_button:hover {
+    background: #001aff7c;
 }
 
 .work_button {
@@ -86,6 +105,11 @@
     padding: 10px 45px;
     background: red;
     color: white;
+    cursor: pointer;
+}
+
+.work_button:hover {
+    background: rgb(255, 37, 37)
 }
 
 .contact_button {
@@ -96,6 +120,11 @@
     padding: 10px 30px;
     background: #FFE81E;
     color: black;
+    cursor: pointer;
+}
+
+.contact_button:hover {
+    background: rgba(255, 230, 0, 0.692);
 }
 
 .tittles {
@@ -118,4 +147,37 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.icon_search {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    width: max-content;
+    height: max-content;
+}
+
+.icon_search:hover {
+    background: #00FF85;
+    border-radius: 50%;
+    color: white;
+}
+
+.search_button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: white;
+    padding: 3px 10px 3px 5px;
+    border-radius: 30px;
+    width: 17%;
+    margin-right: 60px;
+}
+
+.input_button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
 }

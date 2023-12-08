@@ -1,5 +1,4 @@
 import styles from "../css/Home.module.css"
-import img from "../images/img_brian.jpg"
 import { Link } from "react-router-dom"
 import {IoSearch} from "react-icons/io5";
 import { useState } from "react";
@@ -7,6 +6,7 @@ import { useState } from "react";
 export default function Home() {
 
     const[dataSearch, setDataSearch] = useState('');
+    console.log(dataSearch);
 
     return(
         <div className={styles.container_main}>
